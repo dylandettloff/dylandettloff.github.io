@@ -1,0 +1,6 @@
+community,salinity_type,water_quality_risk,energy_stress,environmental_sensitivity,cost_sensitivity,operator_capacity,growth_pressure,weight_flexibility,notes
+Madagascar,seawater,3,3,3,5,3,4,0.15,Capital-sensitive coastal deployment.
+Navajo,brackish,4,5,3,3,2,3,0.15,Operational resilience matters because logistics are harder inland.
+Namibia,mixed,3,5,3,4,3,3,0.15,Energy exposure is elevated but cost still matters.
+IndiaInland,brackish,5,3,4,3,3,3,0.15,Water-quality robustness is emphasized.
+Chennai,seawater,3,3,5,3,3,3,0.15,Brine and environmental externalities are emphasized.
