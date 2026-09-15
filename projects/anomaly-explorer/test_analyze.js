@@ -1,0 +1,11 @@
+const assert=require('node:assert/strict');
+const {analyze}=require('./analyze.js');
+const rows=[{value:0},{value:5},{value:10},{value:11}];
+assert.equal(analyze(rows,'value',0,10).flagged.length,1);
+assert.equal(analyze(rows,'value',0,10).mean,6.5);
+assert.equal(analyze(rows,'value',-1,12).flagged.length,0);
+assert.throws(()=>analyze(rows,'value',10,0));
+assert.throws(()=>analyze(rows,'value',0,Infinity));
+assert.throws(()=>analyze([],'value',0,1));
+assert.throws(()=>analyze([{value:NaN}],'value',0,1));
+console.log('7 analysis assertions passed.');
