@@ -1,0 +1,1064 @@
+{
+  "dataset": "Synthetic water-treatment pilot; demonstration only",
+  "rules": {
+    "flow_lpm": [
+      8,
+      18
+    ],
+    "conductivity_us_cm": [
+      0,
+      650
+    ],
+    "pressure_bar": [
+      0,
+      4
+    ]
+  },
+  "accepted": 144,
+  "rejected": 3,
+  "batches": 1,
+  "alerts": [
+    {
+      "timestamp": "2026-01-01T07:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "metric": "conductivity_us_cm",
+      "value": 920.0,
+      "low": 0,
+      "high": 650
+    },
+    {
+      "timestamp": "2026-01-01T07:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "metric": "conductivity_us_cm",
+      "value": 870.0,
+      "low": 0,
+      "high": 650
+    },
+    {
+      "timestamp": "2026-01-01T15:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "metric": "pressure_bar",
+      "value": 5.2,
+      "low": 0,
+      "high": 4
+    },
+    {
+      "timestamp": "2026-01-01T18:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "metric": "flow_lpm",
+      "value": 4.3,
+      "low": 8,
+      "high": 18
+    }
+  ],
+  "measurements": [
+    {
+      "timestamp": "2026-01-01T00:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.11,
+      "conductivity_us_cm": 395.7,
+      "pressure_bar": 2.21
+    },
+    {
+      "timestamp": "2026-01-01T00:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.09,
+      "conductivity_us_cm": 391.2,
+      "pressure_bar": 2.35
+    },
+    {
+      "timestamp": "2026-01-01T00:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.04,
+      "conductivity_us_cm": 389.58,
+      "pressure_bar": 2.13
+    },
+    {
+      "timestamp": "2026-01-01T00:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.1,
+      "conductivity_us_cm": 396.36,
+      "pressure_bar": 2.13
+    },
+    {
+      "timestamp": "2026-01-01T00:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.09,
+      "conductivity_us_cm": 399.41,
+      "pressure_bar": 2.14
+    },
+    {
+      "timestamp": "2026-01-01T00:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.45,
+      "conductivity_us_cm": 399.86,
+      "pressure_bar": 2.07
+    },
+    {
+      "timestamp": "2026-01-01T01:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.3,
+      "conductivity_us_cm": 409.4,
+      "pressure_bar": 2.17
+    },
+    {
+      "timestamp": "2026-01-01T01:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.69,
+      "conductivity_us_cm": 417.11,
+      "pressure_bar": 2.17
+    },
+    {
+      "timestamp": "2026-01-01T01:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.38,
+      "conductivity_us_cm": 417.85,
+      "pressure_bar": 2.28
+    },
+    {
+      "timestamp": "2026-01-01T01:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.62,
+      "conductivity_us_cm": 418.41,
+      "pressure_bar": 2.14
+    },
+    {
+      "timestamp": "2026-01-01T01:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.99,
+      "conductivity_us_cm": 423.56,
+      "pressure_bar": 2.29
+    },
+    {
+      "timestamp": "2026-01-01T01:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 13.07,
+      "conductivity_us_cm": 412.85,
+      "pressure_bar": 2.21
+    },
+    {
+      "timestamp": "2026-01-01T02:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.98,
+      "conductivity_us_cm": 425.19,
+      "pressure_bar": 2.17
+    },
+    {
+      "timestamp": "2026-01-01T02:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.67,
+      "conductivity_us_cm": 422.29,
+      "pressure_bar": 2.08
+    },
+    {
+      "timestamp": "2026-01-01T02:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 13.04,
+      "conductivity_us_cm": 410.14,
+      "pressure_bar": 2.19
+    },
+    {
+      "timestamp": "2026-01-01T02:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.94,
+      "conductivity_us_cm": 412.26,
+      "pressure_bar": 2.19
+    },
+    {
+      "timestamp": "2026-01-01T02:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.97,
+      "conductivity_us_cm": 416.74,
+      "pressure_bar": 2.32
+    },
+    {
+      "timestamp": "2026-01-01T02:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 13.21,
+      "conductivity_us_cm": 426.31,
+      "pressure_bar": 2.12
+    },
+    {
+      "timestamp": "2026-01-01T03:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.71,
+      "conductivity_us_cm": 414.81,
+      "pressure_bar": 2.08
+    },
+    {
+      "timestamp": "2026-01-01T03:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 13.12,
+      "conductivity_us_cm": 410.99,
+      "pressure_bar": 2.09
+    },
+    {
+      "timestamp": "2026-01-01T03:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.87,
+      "conductivity_us_cm": 411.93,
+      "pressure_bar": 2.27
+    },
+    {
+      "timestamp": "2026-01-01T03:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.96,
+      "conductivity_us_cm": 407.72,
+      "pressure_bar": 2.25
+    },
+    {
+      "timestamp": "2026-01-01T03:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.69,
+      "conductivity_us_cm": 403.45,
+      "pressure_bar": 2.26
+    },
+    {
+      "timestamp": "2026-01-01T03:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 13.09,
+      "conductivity_us_cm": 398.62,
+      "pressure_bar": 2.07
+    },
+    {
+      "timestamp": "2026-01-01T04:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.91,
+      "conductivity_us_cm": 406.85,
+      "pressure_bar": 2.05
+    },
+    {
+      "timestamp": "2026-01-01T04:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.83,
+      "conductivity_us_cm": 396.17,
+      "pressure_bar": 2.08
+    },
+    {
+      "timestamp": "2026-01-01T04:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.63,
+      "conductivity_us_cm": 393.22,
+      "pressure_bar": 2.19
+    },
+    {
+      "timestamp": "2026-01-01T04:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.55,
+      "conductivity_us_cm": 396.64,
+      "pressure_bar": 2.31
+    },
+    {
+      "timestamp": "2026-01-01T04:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.83,
+      "conductivity_us_cm": 382.27,
+      "pressure_bar": 2.24
+    },
+    {
+      "timestamp": "2026-01-01T04:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.74,
+      "conductivity_us_cm": 377.76,
+      "pressure_bar": 2.17
+    },
+    {
+      "timestamp": "2026-01-01T05:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.69,
+      "conductivity_us_cm": 393.29,
+      "pressure_bar": 2.33
+    },
+    {
+      "timestamp": "2026-01-01T05:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.57,
+      "conductivity_us_cm": 382.83,
+      "pressure_bar": 2.34
+    },
+    {
+      "timestamp": "2026-01-01T05:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.28,
+      "conductivity_us_cm": 378.12,
+      "pressure_bar": 2.07
+    },
+    {
+      "timestamp": "2026-01-01T05:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.55,
+      "conductivity_us_cm": 378.03,
+      "pressure_bar": 2.11
+    },
+    {
+      "timestamp": "2026-01-01T05:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.12,
+      "conductivity_us_cm": 372.65,
+      "pressure_bar": 2.28
+    },
+    {
+      "timestamp": "2026-01-01T05:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.0,
+      "conductivity_us_cm": 366.08,
+      "pressure_bar": 2.2
+    },
+    {
+      "timestamp": "2026-01-01T06:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.0,
+      "conductivity_us_cm": 374.99,
+      "pressure_bar": 2.27
+    },
+    {
+      "timestamp": "2026-01-01T06:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.33,
+      "conductivity_us_cm": 368.08,
+      "pressure_bar": 2.25
+    },
+    {
+      "timestamp": "2026-01-01T06:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.85,
+      "conductivity_us_cm": 363.63,
+      "pressure_bar": 2.18
+    },
+    {
+      "timestamp": "2026-01-01T06:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.88,
+      "conductivity_us_cm": 353.38,
+      "pressure_bar": 2.3
+    },
+    {
+      "timestamp": "2026-01-01T06:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.6,
+      "conductivity_us_cm": 360.24,
+      "pressure_bar": 2.33
+    },
+    {
+      "timestamp": "2026-01-01T06:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.74,
+      "conductivity_us_cm": 367.74,
+      "pressure_bar": 2.13
+    },
+    {
+      "timestamp": "2026-01-01T07:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.63,
+      "conductivity_us_cm": 357.62,
+      "pressure_bar": 2.15
+    },
+    {
+      "timestamp": "2026-01-01T07:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.49,
+      "conductivity_us_cm": 358.97,
+      "pressure_bar": 2.3
+    },
+    {
+      "timestamp": "2026-01-01T07:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.78,
+      "conductivity_us_cm": 352.36,
+      "pressure_bar": 2.25
+    },
+    {
+      "timestamp": "2026-01-01T07:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.45,
+      "conductivity_us_cm": 920.0,
+      "pressure_bar": 2.06
+    },
+    {
+      "timestamp": "2026-01-01T07:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.28,
+      "conductivity_us_cm": 870.0,
+      "pressure_bar": 2.16
+    },
+    {
+      "timestamp": "2026-01-01T07:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.36,
+      "conductivity_us_cm": 361.16,
+      "pressure_bar": 2.14
+    },
+    {
+      "timestamp": "2026-01-01T08:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.11,
+      "conductivity_us_cm": 375.15,
+      "pressure_bar": 2.17
+    },
+    {
+      "timestamp": "2026-01-01T08:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.48,
+      "conductivity_us_cm": 361.0,
+      "pressure_bar": 2.25
+    },
+    {
+      "timestamp": "2026-01-01T08:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.18,
+      "conductivity_us_cm": 374.24,
+      "pressure_bar": 2.2
+    },
+    {
+      "timestamp": "2026-01-01T08:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.33,
+      "conductivity_us_cm": 374.41,
+      "pressure_bar": 2.06
+    },
+    {
+      "timestamp": "2026-01-01T08:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.18,
+      "conductivity_us_cm": 377.74,
+      "pressure_bar": 2.12
+    },
+    {
+      "timestamp": "2026-01-01T08:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.18,
+      "conductivity_us_cm": 385.19,
+      "pressure_bar": 2.13
+    },
+    {
+      "timestamp": "2026-01-01T09:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 10.81,
+      "conductivity_us_cm": 377.4,
+      "pressure_bar": 2.23
+    },
+    {
+      "timestamp": "2026-01-01T09:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 10.97,
+      "conductivity_us_cm": 376.31,
+      "pressure_bar": 2.18
+    },
+    {
+      "timestamp": "2026-01-01T09:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.03,
+      "conductivity_us_cm": 389.75,
+      "pressure_bar": 2.16
+    },
+    {
+      "timestamp": "2026-01-01T09:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.17,
+      "conductivity_us_cm": 395.04,
+      "pressure_bar": 2.13
+    },
+    {
+      "timestamp": "2026-01-01T09:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 10.92,
+      "conductivity_us_cm": 403.32,
+      "pressure_bar": 2.12
+    },
+    {
+      "timestamp": "2026-01-01T09:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 10.99,
+      "conductivity_us_cm": 394.15,
+      "pressure_bar": 2.22
+    },
+    {
+      "timestamp": "2026-01-01T10:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.22,
+      "conductivity_us_cm": 393.69,
+      "pressure_bar": 2.11
+    },
+    {
+      "timestamp": "2026-01-01T10:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 10.81,
+      "conductivity_us_cm": 396.76,
+      "pressure_bar": 2.21
+    },
+    {
+      "timestamp": "2026-01-01T10:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.09,
+      "conductivity_us_cm": 415.99,
+      "pressure_bar": 2.19
+    },
+    {
+      "timestamp": "2026-01-01T10:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.16,
+      "conductivity_us_cm": 400.24,
+      "pressure_bar": 2.12
+    },
+    {
+      "timestamp": "2026-01-01T10:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.07,
+      "conductivity_us_cm": 406.97,
+      "pressure_bar": 2.29
+    },
+    {
+      "timestamp": "2026-01-01T10:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.19,
+      "conductivity_us_cm": 406.94,
+      "pressure_bar": 2.21
+    },
+    {
+      "timestamp": "2026-01-01T11:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.09,
+      "conductivity_us_cm": 409.75,
+      "pressure_bar": 2.23
+    },
+    {
+      "timestamp": "2026-01-01T11:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.11,
+      "conductivity_us_cm": 422.65,
+      "pressure_bar": 2.18
+    },
+    {
+      "timestamp": "2026-01-01T11:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.16,
+      "conductivity_us_cm": 422.16,
+      "pressure_bar": 2.34
+    },
+    {
+      "timestamp": "2026-01-01T11:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.63,
+      "conductivity_us_cm": 426.3,
+      "pressure_bar": 2.33
+    },
+    {
+      "timestamp": "2026-01-01T11:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.43,
+      "conductivity_us_cm": 419.64,
+      "pressure_bar": 2.27
+    },
+    {
+      "timestamp": "2026-01-01T11:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.58,
+      "conductivity_us_cm": 429.32,
+      "pressure_bar": 2.18
+    },
+    {
+      "timestamp": "2026-01-01T12:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.43,
+      "conductivity_us_cm": 411.58,
+      "pressure_bar": 2.18
+    },
+    {
+      "timestamp": "2026-01-01T12:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.51,
+      "conductivity_us_cm": 421.21,
+      "pressure_bar": 2.35
+    },
+    {
+      "timestamp": "2026-01-01T12:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.14,
+      "conductivity_us_cm": 427.72,
+      "pressure_bar": 2.12
+    },
+    {
+      "timestamp": "2026-01-01T12:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.77,
+      "conductivity_us_cm": 408.03,
+      "pressure_bar": 2.33
+    },
+    {
+      "timestamp": "2026-01-01T12:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.77,
+      "conductivity_us_cm": 406.37,
+      "pressure_bar": 2.25
+    },
+    {
+      "timestamp": "2026-01-01T12:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.4,
+      "conductivity_us_cm": 413.6,
+      "pressure_bar": 2.07
+    },
+    {
+      "timestamp": "2026-01-01T13:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.94,
+      "conductivity_us_cm": 417.02,
+      "pressure_bar": 2.26
+    },
+    {
+      "timestamp": "2026-01-01T13:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.18,
+      "conductivity_us_cm": 417.77,
+      "pressure_bar": 2.13
+    },
+    {
+      "timestamp": "2026-01-01T13:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.16,
+      "conductivity_us_cm": 414.64,
+      "pressure_bar": 2.07
+    },
+    {
+      "timestamp": "2026-01-01T13:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.37,
+      "conductivity_us_cm": 395.96,
+      "pressure_bar": 2.24
+    },
+    {
+      "timestamp": "2026-01-01T13:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.52,
+      "conductivity_us_cm": 394.3,
+      "pressure_bar": 2.24
+    },
+    {
+      "timestamp": "2026-01-01T13:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.36,
+      "conductivity_us_cm": 405.7,
+      "pressure_bar": 2.29
+    },
+    {
+      "timestamp": "2026-01-01T14:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.48,
+      "conductivity_us_cm": 394.66,
+      "pressure_bar": 2.13
+    },
+    {
+      "timestamp": "2026-01-01T14:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.76,
+      "conductivity_us_cm": 385.71,
+      "pressure_bar": 2.11
+    },
+    {
+      "timestamp": "2026-01-01T14:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.77,
+      "conductivity_us_cm": 377.52,
+      "pressure_bar": 2.35
+    },
+    {
+      "timestamp": "2026-01-01T14:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 13.0,
+      "conductivity_us_cm": 377.36,
+      "pressure_bar": 2.23
+    },
+    {
+      "timestamp": "2026-01-01T14:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.67,
+      "conductivity_us_cm": 372.97,
+      "pressure_bar": 2.16
+    },
+    {
+      "timestamp": "2026-01-01T14:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 13.04,
+      "conductivity_us_cm": 367.95,
+      "pressure_bar": 2.33
+    },
+    {
+      "timestamp": "2026-01-01T15:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.79,
+      "conductivity_us_cm": 366.96,
+      "pressure_bar": 5.2
+    },
+    {
+      "timestamp": "2026-01-01T15:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 13.21,
+      "conductivity_us_cm": 369.3,
+      "pressure_bar": 2.21
+    },
+    {
+      "timestamp": "2026-01-01T15:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 13.27,
+      "conductivity_us_cm": 369.08,
+      "pressure_bar": 2.15
+    },
+    {
+      "timestamp": "2026-01-01T15:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.81,
+      "conductivity_us_cm": 366.77,
+      "pressure_bar": 2.24
+    },
+    {
+      "timestamp": "2026-01-01T15:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 13.06,
+      "conductivity_us_cm": 358.31,
+      "pressure_bar": 2.05
+    },
+    {
+      "timestamp": "2026-01-01T15:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 13.28,
+      "conductivity_us_cm": 366.64,
+      "pressure_bar": 2.3
+    },
+    {
+      "timestamp": "2026-01-01T16:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 13.19,
+      "conductivity_us_cm": 360.12,
+      "pressure_bar": 2.11
+    },
+    {
+      "timestamp": "2026-01-01T16:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 13.25,
+      "conductivity_us_cm": 368.64,
+      "pressure_bar": 2.07
+    },
+    {
+      "timestamp": "2026-01-01T16:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 13.03,
+      "conductivity_us_cm": 360.18,
+      "pressure_bar": 2.06
+    },
+    {
+      "timestamp": "2026-01-01T16:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.96,
+      "conductivity_us_cm": 363.01,
+      "pressure_bar": 2.18
+    },
+    {
+      "timestamp": "2026-01-01T16:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.74,
+      "conductivity_us_cm": 367.93,
+      "pressure_bar": 2.25
+    },
+    {
+      "timestamp": "2026-01-01T16:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.71,
+      "conductivity_us_cm": 366.33,
+      "pressure_bar": 2.32
+    },
+    {
+      "timestamp": "2026-01-01T17:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.73,
+      "conductivity_us_cm": 363.16,
+      "pressure_bar": 2.08
+    },
+    {
+      "timestamp": "2026-01-01T17:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.53,
+      "conductivity_us_cm": 369.98,
+      "pressure_bar": 2.34
+    },
+    {
+      "timestamp": "2026-01-01T17:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.95,
+      "conductivity_us_cm": 357.56,
+      "pressure_bar": 2.26
+    },
+    {
+      "timestamp": "2026-01-01T17:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.56,
+      "conductivity_us_cm": 360.81,
+      "pressure_bar": 2.32
+    },
+    {
+      "timestamp": "2026-01-01T17:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.31,
+      "conductivity_us_cm": 360.34,
+      "pressure_bar": 2.15
+    },
+    {
+      "timestamp": "2026-01-01T17:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.27,
+      "conductivity_us_cm": 369.13,
+      "pressure_bar": 2.24
+    },
+    {
+      "timestamp": "2026-01-01T18:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.42,
+      "conductivity_us_cm": 382.33,
+      "pressure_bar": 2.19
+    },
+    {
+      "timestamp": "2026-01-01T18:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.12,
+      "conductivity_us_cm": 377.78,
+      "pressure_bar": 2.06
+    },
+    {
+      "timestamp": "2026-01-01T18:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 4.3,
+      "conductivity_us_cm": 373.06,
+      "pressure_bar": 2.2
+    },
+    {
+      "timestamp": "2026-01-01T18:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.14,
+      "conductivity_us_cm": 391.67,
+      "pressure_bar": 2.09
+    },
+    {
+      "timestamp": "2026-01-01T18:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.96,
+      "conductivity_us_cm": 382.92,
+      "pressure_bar": 2.21
+    },
+    {
+      "timestamp": "2026-01-01T18:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.94,
+      "conductivity_us_cm": 399.3,
+      "pressure_bar": 2.33
+    },
+    {
+      "timestamp": "2026-01-01T19:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 12.19,
+      "conductivity_us_cm": 396.4,
+      "pressure_bar": 2.29
+    },
+    {
+      "timestamp": "2026-01-01T19:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.87,
+      "conductivity_us_cm": 390.33,
+      "pressure_bar": 2.1
+    },
+    {
+      "timestamp": "2026-01-01T19:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.57,
+      "conductivity_us_cm": 404.85,
+      "pressure_bar": 2.25
+    },
+    {
+      "timestamp": "2026-01-01T19:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.4,
+      "conductivity_us_cm": 398.45,
+      "pressure_bar": 2.07
+    },
+    {
+      "timestamp": "2026-01-01T19:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.62,
+      "conductivity_us_cm": 402.38,
+      "pressure_bar": 2.19
+    },
+    {
+      "timestamp": "2026-01-01T19:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.45,
+      "conductivity_us_cm": 406.37,
+      "pressure_bar": 2.19
+    },
+    {
+      "timestamp": "2026-01-01T20:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.63,
+      "conductivity_us_cm": 402.19,
+      "pressure_bar": 2.28
+    },
+    {
+      "timestamp": "2026-01-01T20:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.44,
+      "conductivity_us_cm": 418.92,
+      "pressure_bar": 2.1
+    },
+    {
+      "timestamp": "2026-01-01T20:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.2,
+      "conductivity_us_cm": 423.21,
+      "pressure_bar": 2.34
+    },
+    {
+      "timestamp": "2026-01-01T20:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.13,
+      "conductivity_us_cm": 414.27,
+      "pressure_bar": 2.15
+    },
+    {
+      "timestamp": "2026-01-01T20:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.11,
+      "conductivity_us_cm": 427.04,
+      "pressure_bar": 2.2
+    },
+    {
+      "timestamp": "2026-01-01T20:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.12,
+      "conductivity_us_cm": 427.15,
+      "pressure_bar": 2.24
+    },
+    {
+      "timestamp": "2026-01-01T21:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.38,
+      "conductivity_us_cm": 422.71,
+      "pressure_bar": 2.18
+    },
+    {
+      "timestamp": "2026-01-01T21:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 10.83,
+      "conductivity_us_cm": 419.93,
+      "pressure_bar": 2.21
+    },
+    {
+      "timestamp": "2026-01-01T21:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.12,
+      "conductivity_us_cm": 426.83,
+      "pressure_bar": 2.16
+    },
+    {
+      "timestamp": "2026-01-01T21:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.06,
+      "conductivity_us_cm": 425.91,
+      "pressure_bar": 2.33
+    },
+    {
+      "timestamp": "2026-01-01T21:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.21,
+      "conductivity_us_cm": 413.86,
+      "pressure_bar": 2.3
+    },
+    {
+      "timestamp": "2026-01-01T21:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.11,
+      "conductivity_us_cm": 413.72,
+      "pressure_bar": 2.22
+    },
+    {
+      "timestamp": "2026-01-01T22:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.18,
+      "conductivity_us_cm": 422.04,
+      "pressure_bar": 2.12
+    },
+    {
+      "timestamp": "2026-01-01T22:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.0,
+      "conductivity_us_cm": 417.32,
+      "pressure_bar": 2.1
+    },
+    {
+      "timestamp": "2026-01-01T22:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.17,
+      "conductivity_us_cm": 417.71,
+      "pressure_bar": 2.22
+    },
+    {
+      "timestamp": "2026-01-01T22:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.31,
+      "conductivity_us_cm": 405.84,
+      "pressure_bar": 2.13
+    },
+    {
+      "timestamp": "2026-01-01T22:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.34,
+      "conductivity_us_cm": 409.17,
+      "pressure_bar": 2.05
+    },
+    {
+      "timestamp": "2026-01-01T22:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.05,
+      "conductivity_us_cm": 400.35,
+      "pressure_bar": 2.3
+    },
+    {
+      "timestamp": "2026-01-01T23:00:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.41,
+      "conductivity_us_cm": 393.71,
+      "pressure_bar": 2.25
+    },
+    {
+      "timestamp": "2026-01-01T23:10:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.38,
+      "conductivity_us_cm": 390.11,
+      "pressure_bar": 2.18
+    },
+    {
+      "timestamp": "2026-01-01T23:20:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 10.94,
+      "conductivity_us_cm": 391.64,
+      "pressure_bar": 2.22
+    },
+    {
+      "timestamp": "2026-01-01T23:30:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.4,
+      "conductivity_us_cm": 386.72,
+      "pressure_bar": 2.25
+    },
+    {
+      "timestamp": "2026-01-01T23:40:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.36,
+      "conductivity_us_cm": 385.2,
+      "pressure_bar": 2.2
+    },
+    {
+      "timestamp": "2026-01-01T23:50:00+00:00",
+      "asset": "Demo-Skid-A",
+      "flow_lpm": 11.58,
+      "conductivity_us_cm": 390.38,
+      "pressure_bar": 2.18
+    }
+  ]
+}
