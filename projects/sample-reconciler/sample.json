@@ -1,0 +1,17 @@
+{
+  "manifest": [
+    {"sample_id":"S01","analyte":"chloride","unit":"mg/L"},
+    {"sample_id":"S02","analyte":"chloride","unit":"mg/L"},
+    {"sample_id":"S03","analyte":"chloride","unit":"mg/L"},
+    {"sample_id":"S04","analyte":"chloride","unit":"mg/L"},
+    {"sample_id":"S05","analyte":"chloride","unit":"mg/L"}
+  ],
+  "results": [
+    {"sample_id":"S01","analyte":"chloride","unit":"mg/L","qualifier":"=","value":12},
+    {"sample_id":"S02","analyte":"chloride","unit":"mg/L","qualifier":"ND","value":null,"reporting_limit":0.5},
+    {"sample_id":"S03","analyte":"chloride","unit":"ug/L","qualifier":"=","value":900},
+    {"sample_id":"S04","analyte":"chloride","unit":"mg/L","qualifier":"=","value":8},
+    {"sample_id":"S04","analyte":"chloride","unit":"mg/L","qualifier":"=","value":9},
+    {"sample_id":"S99","analyte":"chloride","unit":"mg/L","qualifier":"=","value":4}
+  ]
+}

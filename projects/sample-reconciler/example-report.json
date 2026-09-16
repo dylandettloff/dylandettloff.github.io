@@ -1,0 +1,71 @@
+{
+  "expected_records": 5,
+  "received_records": 6,
+  "accepted_records": 2,
+  "accepted": [
+    {
+      "sample_id": "S01",
+      "analyte": "chloride",
+      "unit": "mg/L",
+      "qualifier": "=",
+      "value": 12
+    },
+    {
+      "sample_id": "S02",
+      "analyte": "chloride",
+      "unit": "mg/L",
+      "qualifier": "ND",
+      "value": null,
+      "reporting_limit": 0.5
+    }
+  ],
+  "issues": [
+    {
+      "key": [
+        "S05",
+        "chloride"
+      ],
+      "reason": "missing_result"
+    },
+    {
+      "result_row": 3,
+      "key": [
+        "S03",
+        "chloride"
+      ],
+      "reasons": [
+        "unit_mismatch"
+      ]
+    },
+    {
+      "result_row": 4,
+      "key": [
+        "S04",
+        "chloride"
+      ],
+      "reasons": [
+        "duplicate_result"
+      ]
+    },
+    {
+      "result_row": 5,
+      "key": [
+        "S04",
+        "chloride"
+      ],
+      "reasons": [
+        "duplicate_result"
+      ]
+    },
+    {
+      "result_row": 6,
+      "key": [
+        "S99",
+        "chloride"
+      ],
+      "reasons": [
+        "unexpected_result"
+      ]
+    }
+  ]
+}
