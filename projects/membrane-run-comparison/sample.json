@@ -1,0 +1,7 @@
+[
+  {"run_id":"R1","membrane":"A","condition_id":"synthetic-low-salinity-25C","feed_m3":10,"permeate_m3":5,"energy_kwh":10},
+  {"run_id":"R2","membrane":"A","condition_id":"synthetic-low-salinity-25C","feed_m3":30,"permeate_m3":15,"energy_kwh":36},
+  {"run_id":"R3","membrane":"B","condition_id":"synthetic-low-salinity-25C","feed_m3":20,"permeate_m3":12,"energy_kwh":24},
+  {"run_id":"R4","membrane":"A","condition_id":"synthetic-high-salinity-25C","feed_m3":10,"permeate_m3":4,"energy_kwh":16},
+  {"run_id":"R5","membrane":"B","condition_id":"synthetic-low-salinity-25C","feed_m3":10,"permeate_m3":11,"energy_kwh":20}
+]

@@ -1,0 +1,41 @@
+{
+  "groups": [
+    {
+      "condition_id": "synthetic-high-salinity-25C",
+      "membrane": "A",
+      "runs": 1,
+      "feed_m3": 10,
+      "permeate_m3": 4,
+      "energy_kwh": 16,
+      "recovery_pct": 40.0,
+      "specific_energy_kwh_m3": 4.0
+    },
+    {
+      "condition_id": "synthetic-low-salinity-25C",
+      "membrane": "A",
+      "runs": 2,
+      "feed_m3": 40,
+      "permeate_m3": 20,
+      "energy_kwh": 46,
+      "recovery_pct": 50.0,
+      "specific_energy_kwh_m3": 2.3
+    },
+    {
+      "condition_id": "synthetic-low-salinity-25C",
+      "membrane": "B",
+      "runs": 1,
+      "feed_m3": 20,
+      "permeate_m3": 12,
+      "energy_kwh": 24,
+      "recovery_pct": 60.0,
+      "specific_energy_kwh_m3": 2.0
+    }
+  ],
+  "rejected": [
+    {
+      "row": 5,
+      "run_id": "R5",
+      "reason": "require 0 < permeate_m3 <= feed_m3"
+    }
+  ]
+}
