@@ -1,6 +1,6 @@
 # Anomaly Explorer
 
-A browser tool for inspecting synthetic pilot measurements with adjustable range thresholds. Created for Dylan Dettloff’s portfolio with AI assistance.
+A browser tool for inspecting synthetic pilot measurements with adjustable range thresholds.
 
 ## Use
 
