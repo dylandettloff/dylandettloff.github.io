@@ -19,7 +19,7 @@ flowchart LR
   H --> I[Win rates and average ranks]
 ```
 
-Technologies: RO, ED, HDH, and MSPD. Contexts: Madagascar, Navajo, Namibia, IndiaInland, and Chennai. Futures: Baseline, EnergyPriceSpike, RenewablesCheaper, BrineRegTightens, and TechLearning.
+Technologies: RO, ED, HDH, and MSPD. Contexts: Madagascar, Navajo Nation, Namibia, Rajasthan, and Chennai. Futures: Baseline, EnergyPriceSpike, RenewablesCheaper, BrineRegTightens, and TechLearning.
 
 ## Quick start
 
