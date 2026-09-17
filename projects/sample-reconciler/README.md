@@ -28,4 +28,4 @@ The committed synthetic example produces **2 accepted records and 5 review items
 
 ## Scope
 
-Original portfolio demo using entirely synthetic chloride records, developed with AI assistance. No employer code or operational data. This is data preparation, not laboratory certification, chemical interpretation, or regulatory compliance software. It does not handle revisions, unit conversion, chain of custody, or large-file streaming. The CLI writes JSON locally and sends nothing.
+Original portfolio demo using entirely synthetic chloride records. No employer code or operational data. This is data preparation, not laboratory certification, chemical interpretation, or regulatory compliance software. It does not handle revisions, unit conversion, chain of custody, or large-file streaming. The CLI writes JSON locally and sends nothing.
