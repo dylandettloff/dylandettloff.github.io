@@ -44,4 +44,4 @@ For membrane A in the low-salinity example, `(10 + 36) / (5 + 15) = 2.30 kWh/m³
 
 No temperature normalization, salt rejection calculation, uncertainty intervals, significance tests, cost estimates or technology recommendation is supplied. The CLI reads small files in memory and replaces the chosen local output. It makes no network calls.
 
-Original portfolio demo using synthetic data, developed with AI assistance. Contains no employer code or measurements.
+Original portfolio demo using synthetic data. Contains no employer code or measurements.
