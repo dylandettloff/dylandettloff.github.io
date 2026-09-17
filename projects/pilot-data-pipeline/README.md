@@ -48,6 +48,6 @@ Tests cover repeat imports, renaming, overlapping modified files, invalid header
 
 ## Scope and provenance
 
-New code and synthetic measurements created for Dylan Dettloff’s portfolio with AI assistance. The project demonstrates general ingestion and monitoring concepts; it is not employer software or a reproduction of a production system. No employer code, logs, cloud resource names, or credentials are included.
+The project demonstrates general ingestion and monitoring concepts; it is not employer software or a reproduction of a production system. No employer code, logs, cloud resource names, or credentials are included.
 
 This is a local, small-file demo. It reads each CSV into memory, materializes reports in memory, and does not provide cloud upload, scheduling, email delivery, schema migrations, or a correction workflow. It is not a safety-control system.
